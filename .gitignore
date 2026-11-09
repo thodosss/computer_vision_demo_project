@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Editors
+*.swp
+*~
+
+# Large / reproducible artifacts (recreate with the scripts)
+# CLIP export (581 MB), created on first run
+open-vocabulary-search/models/
+# COCO images: scripts/download_dataset.py
+open-vocabulary-search/data/images/
+# FAISS index: scripts/index_images.py
+open-vocabulary-search/data/index/
+# COCO annotations zip (241 MB)
+open-vocabulary-search/data/downloads/
+*.pt
+*.part
+
+# Run outputs
+open-vocabulary-search/results/logs/
+open-vocabulary-search/results/**/*.png

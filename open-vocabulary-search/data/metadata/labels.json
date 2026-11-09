@@ -1,0 +1,1373 @@
+{
+ "000000000139.jpg": [
+  "tv",
+  "chair",
+  "person",
+  "vase",
+  "dining table",
+  "refrigerator",
+  "book",
+  "potted plant",
+  "clock",
+  "microwave"
+ ],
+ "000000000285.jpg": [
+  "bear"
+ ],
+ "000000000632.jpg": [
+  "bed",
+  "book",
+  "potted plant",
+  "chair"
+ ],
+ "000000000724.jpg": [
+  "stop sign",
+  "truck",
+  "car"
+ ],
+ "000000000776.jpg": [
+  "teddy bear",
+  "bed"
+ ],
+ "000000000785.jpg": [
+  "person",
+  "skis"
+ ],
+ "000000000802.jpg": [
+  "refrigerator",
+  "oven"
+ ],
+ "000000000872.jpg": [
+  "person",
+  "baseball glove",
+  "sports ball"
+ ],
+ "000000000885.jpg": [
+  "person",
+  "tennis racket"
+ ],
+ "000000001000.jpg": [
+  "person",
+  "handbag",
+  "tennis racket",
+  "backpack"
+ ],
+ "000000001268.jpg": [
+  "person",
+  "handbag",
+  "boat",
+  "bird",
+  "backpack",
+  "cell phone"
+ ],
+ "000000001296.jpg": [
+  "person",
+  "cell phone",
+  "clock"
+ ],
+ "000000001353.jpg": [
+  "person",
+  "train"
+ ],
+ "000000001425.jpg": [
+  "sandwich",
+  "bowl"
+ ],
+ "000000001490.jpg": [
+  "person",
+  "surfboard"
+ ],
+ "000000001503.jpg": [
+  "laptop",
+  "tv",
+  "keyboard",
+  "mouse"
+ ],
+ "000000001532.jpg": [
+  "car",
+  "truck"
+ ],
+ "000000001584.jpg": [
+  "bus",
+  "person"
+ ],
+ "000000001675.jpg": [
+  "cat",
+  "keyboard"
+ ],
+ "000000001761.jpg": [
+  "airplane",
+  "person"
+ ],
+ "000000002006.jpg": [
+  "bus",
+  "person",
+  "traffic light",
+  "tie"
+ ],
+ "000000006012.jpg": [
+  "banana"
+ ],
+ "000000006614.jpg": [
+  "apple",
+  "orange"
+ ],
+ "000000007784.jpg": [
+  "kite"
+ ],
+ "000000009448.jpg": [
+  "umbrella",
+  "person"
+ ],
+ "000000009914.jpg": [
+  "sandwich",
+  "bowl",
+  "hot dog",
+  "dining table",
+  "knife"
+ ],
+ "000000014007.jpg": [
+  "refrigerator",
+  "cat"
+ ],
+ "000000014888.jpg": [
+  "cow"
+ ],
+ "000000015278.jpg": [
+  "broccoli"
+ ],
+ "000000015517.jpg": [
+  "bus"
+ ],
+ "000000017959.jpg": [
+  "kite",
+  "person",
+  "backpack"
+ ],
+ "000000018193.jpg": [
+  "person",
+  "chair",
+  "hot dog"
+ ],
+ "000000019742.jpg": [
+  "vase"
+ ],
+ "000000020247.jpg": [
+  "bear"
+ ],
+ "000000022589.jpg": [
+  "sheep"
+ ],
+ "000000022705.jpg": [
+  "refrigerator",
+  "person",
+  "bottle",
+  "wine glass",
+  "bowl"
+ ],
+ "000000024919.jpg": [
+  "elephant"
+ ],
+ "000000027932.jpg": [
+  "baseball glove"
+ ],
+ "000000028809.jpg": [
+  "banana"
+ ],
+ "000000030213.jpg": [
+  "refrigerator",
+  "chair",
+  "dining table",
+  "oven",
+  "sink",
+  "bottle",
+  "bowl",
+  "apple"
+ ],
+ "000000035326.jpg": [
+  "oven",
+  "bottle",
+  "knife"
+ ],
+ "000000039769.jpg": [
+  "bed",
+  "couch",
+  "cat",
+  "remote"
+ ],
+ "000000048153.jpg": [
+  "bench",
+  "person"
+ ],
+ "000000050149.jpg": [
+  "banana",
+  "bowl"
+ ],
+ "000000053529.jpg": [
+  "truck",
+  "person",
+  "dog"
+ ],
+ "000000053994.jpg": [
+  "parking meter",
+  "car"
+ ],
+ "000000054628.jpg": [
+  "dining table",
+  "cake",
+  "chair",
+  "potted plant",
+  "person"
+ ],
+ "000000056127.jpg": [
+  "bench",
+  "refrigerator",
+  "oven",
+  "cup",
+  "sink"
+ ],
+ "000000057232.jpg": [
+  "chair",
+  "baseball bat",
+  "vase"
+ ],
+ "000000061333.jpg": [
+  "book",
+  "bed",
+  "cat"
+ ],
+ "000000066841.jpg": [
+  "toaster",
+  "bottle",
+  "spoon"
+ ],
+ "000000068765.jpg": [
+  "keyboard",
+  "mouse"
+ ],
+ "000000069138.jpg": [
+  "traffic light",
+  "truck"
+ ],
+ "000000075393.jpg": [
+  "fork"
+ ],
+ "000000076731.jpg": [
+  "laptop"
+ ],
+ "000000079651.jpg": [
+  "bottle",
+  "banana"
+ ],
+ "000000083531.jpg": [
+  "hot dog",
+  "person",
+  "bottle",
+  "cup"
+ ],
+ "000000087244.jpg": [
+  "fire hydrant",
+  "person",
+  "bench"
+ ],
+ "000000089761.jpg": [
+  "toilet"
+ ],
+ "000000091654.jpg": [
+  "bowl",
+  "dining table",
+  "spoon"
+ ],
+ "000000093353.jpg": [
+  "hot dog",
+  "person",
+  "chair",
+  "book"
+ ],
+ "000000094336.jpg": [
+  "sink",
+  "cat"
+ ],
+ "000000095899.jpg": [
+  "stop sign"
+ ],
+ "000000098261.jpg": [
+  "bird"
+ ],
+ "000000098716.jpg": [
+  "bench",
+  "person"
+ ],
+ "000000100238.jpg": [
+  "person",
+  "frisbee",
+  "handbag",
+  "bottle"
+ ],
+ "000000106330.jpg": [
+  "teddy bear"
+ ],
+ "000000108244.jpg": [
+  "cat"
+ ],
+ "000000109055.jpg": [
+  "bicycle",
+  "cat"
+ ],
+ "000000109976.jpg": [
+  "oven",
+  "microwave",
+  "bottle"
+ ],
+ "000000110721.jpg": [
+  "airplane",
+  "person"
+ ],
+ "000000112997.jpg": [
+  "cell phone",
+  "person"
+ ],
+ "000000117719.jpg": [
+  "bottle",
+  "person",
+  "wine glass",
+  "cup"
+ ],
+ "000000121586.jpg": [
+  "book",
+  "tv",
+  "cat"
+ ],
+ "000000132622.jpg": [
+  "bear"
+ ],
+ "000000133778.jpg": [
+  "cow"
+ ],
+ "000000135410.jpg": [
+  "parking meter",
+  "car",
+  "motorcycle",
+  "bicycle",
+  "person"
+ ],
+ "000000136633.jpg": [
+  "umbrella",
+  "person",
+  "bowl"
+ ],
+ "000000145781.jpg": [
+  "dog",
+  "bottle"
+ ],
+ "000000150726.jpg": [
+  "giraffe"
+ ],
+ "000000151662.jpg": [
+  "giraffe"
+ ],
+ "000000152740.jpg": [
+  "cow"
+ ],
+ "000000153510.jpg": [
+  "broccoli",
+  "carrot"
+ ],
+ "000000153568.jpg": [
+  "stop sign"
+ ],
+ "000000154339.jpg": [
+  "clock"
+ ],
+ "000000155179.jpg": [
+  "cake",
+  "dining table"
+ ],
+ "000000156292.jpg": [
+  "clock",
+  "person",
+  "handbag"
+ ],
+ "000000159282.jpg": [
+  "potted plant",
+  "vase"
+ ],
+ "000000161008.jpg": [
+  "scissors"
+ ],
+ "000000167486.jpg": [
+  "tv",
+  "person",
+  "bicycle"
+ ],
+ "000000167902.jpg": [
+  "bird"
+ ],
+ "000000172330.jpg": [
+  "car",
+  "cat"
+ ],
+ "000000174123.jpg": [
+  "pizza",
+  "dining table",
+  "fork",
+  "person",
+  "knife"
+ ],
+ "000000177213.jpg": [
+  "dining table",
+  "pizza",
+  "person",
+  "cup",
+  "fork",
+  "knife"
+ ],
+ "000000177539.jpg": [
+  "surfboard",
+  "person"
+ ],
+ "000000179285.jpg": [
+  "tennis racket",
+  "sports ball"
+ ],
+ "000000180296.jpg": [
+  "suitcase",
+  "backpack",
+  "chair"
+ ],
+ "000000180798.jpg": [
+  "cell phone"
+ ],
+ "000000180878.jpg": [
+  "cake",
+  "car",
+  "cell phone"
+ ],
+ "000000183965.jpg": [
+  "dining table",
+  "cup",
+  "sandwich",
+  "hot dog",
+  "bowl"
+ ],
+ "000000189820.jpg": [
+  "chair",
+  "keyboard",
+  "book",
+  "tv",
+  "cup",
+  "mouse"
+ ],
+ "000000190853.jpg": [
+  "banana",
+  "person"
+ ],
+ "000000193717.jpg": [
+  "fire hydrant",
+  "person",
+  "car",
+  "traffic light",
+  "handbag"
+ ],
+ "000000194940.jpg": [
+  "bowl",
+  "cup",
+  "carrot",
+  "broccoli"
+ ],
+ "000000196009.jpg": [
+  "carrot",
+  "spoon"
+ ],
+ "000000197004.jpg": [
+  "sandwich",
+  "keyboard"
+ ],
+ "000000197796.jpg": [
+  "sink",
+  "bottle"
+ ],
+ "000000200421.jpg": [
+  "tennis racket",
+  "person",
+  "bed"
+ ],
+ "000000200839.jpg": [
+  "bus",
+  "book",
+  "person"
+ ],
+ "000000204329.jpg": [
+  "surfboard",
+  "person"
+ ],
+ "000000206027.jpg": [
+  "bottle",
+  "dining table",
+  "pizza"
+ ],
+ "000000207538.jpg": [
+  "microwave"
+ ],
+ "000000207585.jpg": [
+  "teddy bear",
+  "tie"
+ ],
+ "000000207844.jpg": [
+  "umbrella",
+  "chair",
+  "person",
+  "book",
+  "cup"
+ ],
+ "000000208208.jpg": [
+  "airplane"
+ ],
+ "000000213935.jpg": [
+  "apple",
+  "orange"
+ ],
+ "000000214200.jpg": [
+  "stop sign",
+  "car"
+ ],
+ "000000215644.jpg": [
+  "microwave",
+  "bowl",
+  "spoon"
+ ],
+ "000000215778.jpg": [
+  "laptop",
+  "keyboard",
+  "book",
+  "cup",
+  "mouse"
+ ],
+ "000000216277.jpg": [
+  "apple",
+  "cell phone",
+  "person"
+ ],
+ "000000218362.jpg": [
+  "clock"
+ ],
+ "000000219440.jpg": [
+  "cow"
+ ],
+ "000000222299.jpg": [
+  "bed",
+  "book",
+  "laptop",
+  "bottle",
+  "cell phone"
+ ],
+ "000000224200.jpg": [
+  "fire hydrant",
+  "dog"
+ ],
+ "000000227765.jpg": [
+  "carrot",
+  "spoon"
+ ],
+ "000000228981.jpg": [
+  "cell phone"
+ ],
+ "000000229659.jpg": [
+  "laptop",
+  "tv",
+  "chair",
+  "dining table",
+  "person",
+  "bottle",
+  "clock"
+ ],
+ "000000230008.jpg": [
+  "motorcycle",
+  "car",
+  "person"
+ ],
+ "000000232348.jpg": [
+  "toaster"
+ ],
+ "000000232489.jpg": [
+  "pizza"
+ ],
+ "000000235399.jpg": [
+  "truck",
+  "bed",
+  "dog"
+ ],
+ "000000236592.jpg": [
+  "oven",
+  "dog"
+ ],
+ "000000236914.jpg": [
+  "teddy bear",
+  "dining table",
+  "bottle",
+  "chair"
+ ],
+ "000000239627.jpg": [
+  "sink",
+  "cup",
+  "bottle",
+  "bowl",
+  "spoon"
+ ],
+ "000000242287.jpg": [
+  "bicycle"
+ ],
+ "000000249550.jpg": [
+  "bed",
+  "potted plant"
+ ],
+ "000000251119.jpg": [
+  "hot dog",
+  "sandwich"
+ ],
+ "000000251140.jpg": [
+  "book",
+  "bicycle",
+  "person"
+ ],
+ "000000252216.jpg": [
+  "horse"
+ ],
+ "000000254016.jpg": [
+  "donut",
+  "person",
+  "bowl"
+ ],
+ "000000259640.jpg": [
+  "truck",
+  "person",
+  "bicycle",
+  "orange",
+  "handbag",
+  "backpack"
+ ],
+ "000000260261.jpg": [
+  "truck",
+  "person",
+  "knife"
+ ],
+ "000000260470.jpg": [
+  "cake",
+  "person",
+  "car",
+  "donut"
+ ],
+ "000000261706.jpg": [
+  "couch",
+  "cat",
+  "remote"
+ ],
+ "000000262631.jpg": [
+  "vase",
+  "person",
+  "bottle"
+ ],
+ "000000263679.jpg": [
+  "kite",
+  "person"
+ ],
+ "000000263966.jpg": [
+  "horse",
+  "sheep",
+  "person"
+ ],
+ "000000269866.jpg": [
+  "microwave"
+ ],
+ "000000271457.jpg": [
+  "bench"
+ ],
+ "000000271728.jpg": [
+  "couch",
+  "cat",
+  "laptop",
+  "book",
+  "remote",
+  "cup"
+ ],
+ "000000272136.jpg": [
+  "airplane",
+  "person"
+ ],
+ "000000283070.jpg": [
+  "orange"
+ ],
+ "000000284282.jpg": [
+  "dining table"
+ ],
+ "000000284762.jpg": [
+  "traffic light"
+ ],
+ "000000288391.jpg": [
+  "cell phone"
+ ],
+ "000000289222.jpg": [
+  "traffic light",
+  "bus",
+  "person"
+ ],
+ "000000289702.jpg": [
+  "dog"
+ ],
+ "000000290081.jpg": [
+  "orange",
+  "bowl",
+  "dining table"
+ ],
+ "000000290833.jpg": [
+  "zebra"
+ ],
+ "000000292060.jpg": [
+  "oven",
+  "refrigerator",
+  "sink",
+  "microwave",
+  "cup",
+  "knife",
+  "bottle"
+ ],
+ "000000297427.jpg": [
+  "donut",
+  "person"
+ ],
+ "000000298738.jpg": [
+  "bear"
+ ],
+ "000000299355.jpg": [
+  "broccoli"
+ ],
+ "000000300842.jpg": [
+  "skateboard"
+ ],
+ "000000303653.jpg": [
+  "horse",
+  "person",
+  "chair"
+ ],
+ "000000304817.jpg": [
+  "snowboard"
+ ],
+ "000000305343.jpg": [
+  "cup",
+  "dog"
+ ],
+ "000000318238.jpg": [
+  "bed",
+  "dog",
+  "cat"
+ ],
+ "000000320425.jpg": [
+  "giraffe"
+ ],
+ "000000321887.jpg": [
+  "sheep"
+ ],
+ "000000324818.jpg": [
+  "bird"
+ ],
+ "000000326082.jpg": [
+  "couch",
+  "chair",
+  "dining table",
+  "tv",
+  "clock",
+  "bowl",
+  "laptop",
+  "banana",
+  "remote"
+ ],
+ "000000327780.jpg": [
+  "cake",
+  "fork"
+ ],
+ "000000328117.jpg": [
+  "donut"
+ ],
+ "000000331569.jpg": [
+  "cup"
+ ],
+ "000000333069.jpg": [
+  "giraffe"
+ ],
+ "000000335658.jpg": [
+  "keyboard",
+  "mouse"
+ ],
+ "000000336232.jpg": [
+  "car",
+  "motorcycle",
+  "bus",
+  "person",
+  "truck"
+ ],
+ "000000338624.jpg": [
+  "chair",
+  "person",
+  "dog",
+  "car",
+  "traffic light",
+  "orange"
+ ],
+ "000000340697.jpg": [
+  "bottle"
+ ],
+ "000000341058.jpg": [
+  "umbrella",
+  "chair",
+  "dining table",
+  "bottle"
+ ],
+ "000000347456.jpg": [
+  "elephant"
+ ],
+ "000000347544.jpg": [
+  "bus",
+  "truck"
+ ],
+ "000000348012.jpg": [
+  "scissors"
+ ],
+ "000000349480.jpg": [
+  "teddy bear",
+  "potted plant",
+  "banana",
+  "handbag",
+  "bowl",
+  "cake",
+  "cup",
+  "apple",
+  "orange",
+  "bottle"
+ ],
+ "000000351609.jpg": [
+  "bowl",
+  "orange",
+  "cup",
+  "spoon"
+ ],
+ "000000351810.jpg": [
+  "backpack",
+  "suitcase",
+  "person",
+  "dining table",
+  "potted plant",
+  "chair"
+ ],
+ "000000353027.jpg": [
+  "pizza",
+  "person"
+ ],
+ "000000354753.jpg": [
+  "car",
+  "traffic light"
+ ],
+ "000000355240.jpg": [
+  "couch",
+  "dog",
+  "car"
+ ],
+ "000000357501.jpg": [
+  "scissors"
+ ],
+ "000000359833.jpg": [
+  "apple",
+  "person",
+  "orange"
+ ],
+ "000000360097.jpg": [
+  "suitcase",
+  "person"
+ ],
+ "000000361103.jpg": [
+  "traffic light",
+  "person",
+  "potted plant",
+  "bicycle",
+  "handbag",
+  "backpack",
+  "cell phone"
+ ],
+ "000000361621.jpg": [
+  "cat",
+  "sink"
+ ],
+ "000000365385.jpg": [
+  "cup",
+  "sink",
+  "toothbrush"
+ ],
+ "000000366711.jpg": [
+  "orange",
+  "person"
+ ],
+ "000000370208.jpg": [
+  "bicycle",
+  "parking meter",
+  "person"
+ ],
+ "000000373353.jpg": [
+  "car",
+  "person",
+  "bus",
+  "handbag",
+  "backpack",
+  "traffic light"
+ ],
+ "000000374551.jpg": [
+  "bird"
+ ],
+ "000000375278.jpg": [
+  "suitcase",
+  "cat",
+  "dog",
+  "book",
+  "person"
+ ],
+ "000000376365.jpg": [
+  "potted plant",
+  "vase",
+  "cup",
+  "person",
+  "chair",
+  "couch"
+ ],
+ "000000378099.jpg": [
+  "keyboard",
+  "mouse"
+ ],
+ "000000385719.jpg": [
+  "tv",
+  "keyboard",
+  "laptop",
+  "book",
+  "mouse",
+  "remote"
+ ],
+ "000000388258.jpg": [
+  "bicycle",
+  "bench",
+  "bottle",
+  "airplane"
+ ],
+ "000000389566.jpg": [
+  "sheep",
+  "car"
+ ],
+ "000000392818.jpg": [
+  "dog"
+ ],
+ "000000393115.jpg": [
+  "skateboard",
+  "person"
+ ],
+ "000000394328.jpg": [
+  "toilet"
+ ],
+ "000000396526.jpg": [
+  "chair",
+  "dining table",
+  "potted plant",
+  "vase",
+  "book"
+ ],
+ "000000397681.jpg": [
+  "carrot",
+  "orange",
+  "bowl",
+  "person",
+  "cake",
+  "fork"
+ ],
+ "000000402765.jpg": [
+  "remote",
+  "person"
+ ],
+ "000000402783.jpg": [
+  "orange"
+ ],
+ "000000413247.jpg": [
+  "laptop",
+  "backpack",
+  "book",
+  "bottle",
+  "mouse"
+ ],
+ "000000414638.jpg": [
+  "dining table",
+  "sandwich",
+  "cup",
+  "fork",
+  "knife"
+ ],
+ "000000414795.jpg": [
+  "elephant",
+  "person"
+ ],
+ "000000416343.jpg": [
+  "surfboard",
+  "person",
+  "chair",
+  "book"
+ ],
+ "000000417465.jpg": [
+  "bear"
+ ],
+ "000000424135.jpg": [
+  "clock",
+  "person"
+ ],
+ "000000424721.jpg": [
+  "carrot",
+  "apple",
+  "chair"
+ ],
+ "000000426253.jpg": [
+  "microwave",
+  "bottle"
+ ],
+ "000000428280.jpg": [
+  "chair",
+  "bench",
+  "laptop",
+  "keyboard"
+ ],
+ "000000433774.jpg": [
+  "parking meter",
+  "traffic light",
+  "car"
+ ],
+ "000000434230.jpg": [
+  "vase",
+  "person",
+  "bowl"
+ ],
+ "000000437392.jpg": [
+  "toilet"
+ ],
+ "000000446117.jpg": [
+  "bench",
+  "orange"
+ ],
+ "000000447088.jpg": [
+  "person",
+  "baseball bat"
+ ],
+ "000000447313.jpg": [
+  "zebra"
+ ],
+ "000000450439.jpg": [
+  "kite"
+ ],
+ "000000451150.jpg": [
+  "donut"
+ ],
+ "000000451571.jpg": [
+  "sandwich",
+  "pizza",
+  "chair"
+ ],
+ "000000453634.jpg": [
+  "sink",
+  "toilet"
+ ],
+ "000000453981.jpg": [
+  "bear"
+ ],
+ "000000455624.jpg": [
+  "motorcycle",
+  "person"
+ ],
+ "000000458255.jpg": [
+  "bed",
+  "cat",
+  "person",
+  "book"
+ ],
+ "000000460929.jpg": [
+  "bottle",
+  "hot dog"
+ ],
+ "000000463283.jpg": [
+  "cup",
+  "dining table",
+  "orange"
+ ],
+ "000000464476.jpg": [
+  "tv",
+  "train",
+  "person"
+ ],
+ "000000464522.jpg": [
+  "dog"
+ ],
+ "000000465180.jpg": [
+  "elephant",
+  "person"
+ ],
+ "000000466156.jpg": [
+  "car",
+  "cat"
+ ],
+ "000000467315.jpg": [
+  "potted plant",
+  "chair",
+  "person"
+ ],
+ "000000468577.jpg": [
+  "bed",
+  "person"
+ ],
+ "000000473974.jpg": [
+  "zebra"
+ ],
+ "000000475365.jpg": [
+  "train"
+ ],
+ "000000475904.jpg": [
+  "boat",
+  "bird"
+ ],
+ "000000480985.jpg": [
+  "motorcycle",
+  "person"
+ ],
+ "000000481573.jpg": [
+  "skateboard",
+  "person"
+ ],
+ "000000491213.jpg": [
+  "motorcycle",
+  "car",
+  "truck",
+  "person",
+  "traffic light"
+ ],
+ "000000491216.jpg": [
+  "refrigerator",
+  "oven",
+  "chair",
+  "potted plant",
+  "cat",
+  "bottle",
+  "banana",
+  "spoon",
+  "sink"
+ ],
+ "000000492282.jpg": [
+  "horse",
+  "person"
+ ],
+ "000000495146.jpg": [
+  "train",
+  "car",
+  "boat",
+  "truck",
+  "person"
+ ],
+ "000000499266.jpg": [
+  "cell phone",
+  "person",
+  "chair"
+ ],
+ "000000500477.jpg": [
+  "sheep",
+  "person"
+ ],
+ "000000502168.jpg": [
+  "boat",
+  "person"
+ ],
+ "000000503823.jpg": [
+  "boat"
+ ],
+ "000000504635.jpg": [
+  "zebra"
+ ],
+ "000000504711.jpg": [
+  "cake",
+  "fork"
+ ],
+ "000000514508.jpg": [
+  "tv",
+  "person"
+ ],
+ "000000518213.jpg": [
+  "cow"
+ ],
+ "000000520077.jpg": [
+  "book",
+  "tv",
+  "bottle",
+  "mouse"
+ ],
+ "000000521282.jpg": [
+  "vase"
+ ],
+ "000000523229.jpg": [
+  "toilet"
+ ],
+ "000000526751.jpg": [
+  "boat"
+ ],
+ "000000529939.jpg": [
+  "surfboard",
+  "person"
+ ],
+ "000000530052.jpg": [
+  "carrot"
+ ],
+ "000000530466.jpg": [
+  "train",
+  "chair",
+  "tv"
+ ],
+ "000000533145.jpg": [
+  "remote",
+  "person",
+  "tv"
+ ],
+ "000000534664.jpg": [
+  "suitcase"
+ ],
+ "000000538236.jpg": [
+  "hot dog",
+  "person",
+  "handbag"
+ ],
+ "000000543300.jpg": [
+  "boat"
+ ],
+ "000000545007.jpg": [
+  "clock",
+  "person"
+ ],
+ "000000545219.jpg": [
+  "bus",
+  "person",
+  "backpack",
+  "handbag"
+ ],
+ "000000546826.jpg": [
+  "scissors"
+ ],
+ "000000548506.jpg": [
+  "apple",
+  "banana"
+ ],
+ "000000549390.jpg": [
+  "bicycle",
+  "person",
+  "backpack"
+ ],
+ "000000553094.jpg": [
+  "airplane"
+ ],
+ "000000553664.jpg": [
+  "book",
+  "laptop",
+  "cell phone",
+  "keyboard",
+  "mouse"
+ ],
+ "000000555412.jpg": [
+  "pizza"
+ ],
+ "000000559707.jpg": [
+  "broccoli",
+  "fork"
+ ],
+ "000000560256.jpg": [
+  "banana",
+  "apple",
+  "orange"
+ ],
+ "000000561009.jpg": [
+  "bird"
+ ],
+ "000000561366.jpg": [
+  "keyboard",
+  "cell phone"
+ ],
+ "000000561465.jpg": [
+  "donut",
+  "dining table",
+  "cake"
+ ],
+ "000000562197.jpg": [
+  "broccoli"
+ ],
+ "000000562843.jpg": [
+  "cup",
+  "scissors",
+  "cell phone"
+ ],
+ "000000564280.jpg": [
+  "couch",
+  "dog",
+  "remote"
+ ],
+ "000000565607.jpg": [
+  "potted plant",
+  "fire hydrant"
+ ],
+ "000000567825.jpg": [
+  "sandwich",
+  "bottle",
+  "wine glass"
+ ],
+ "000000567898.jpg": [
+  "bowl",
+  "cake",
+  "carrot",
+  "orange"
+ ],
+ "000000568147.jpg": [
+  "parking meter",
+  "car",
+  "person"
+ ],
+ "000000568213.jpg": [
+  "person",
+  "frisbee"
+ ],
+ "000000572388.jpg": [
+  "cat",
+  "donut"
+ ],
+ "000000572462.jpg": [
+  "train",
+  "person",
+  "backpack",
+  "bench",
+  "bottle",
+  "tie"
+ ],
+ "000000574810.jpg": [
+  "cat"
+ ],
+ "000000577539.jpg": [
+  "bowl",
+  "person",
+  "banana"
+ ],
+ "000000579158.jpg": [
+  "airplane",
+  "truck",
+  "suitcase"
+ ],
+ "000000579321.jpg": [
+  "dog",
+  "person"
+ ],
+ "000000579893.jpg": [
+  "stop sign"
+ ],
+ "000000580757.jpg": [
+  "fire hydrant"
+ ]
+}
