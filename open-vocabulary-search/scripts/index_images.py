@@ -32,7 +32,7 @@ def load_labels(metadata_dir: Path) -> dict:
     return json.loads(path.read_text()) if path.exists() else {}
 
 
-def main() -> int:
+def main(argv=None) -> int:
     cfg = Config()
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--input", type=Path, default=cfg.images_dir)
@@ -41,7 +41,7 @@ def main() -> int:
     ap.add_argument("--device", choices=["auto", "cuda", "cpu"], default=cfg.device)
     ap.add_argument("--max-side", type=int, default=cfg.max_image_side,
                     help="downscale images to this longest side when loading")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
     setup_logging(cfg.log_dir / "index.log")
     cfg.device, cfg.batch_size, cfg.max_image_side = args.device, args.batch_size, args.max_side
 

@@ -23,3 +23,4 @@ open-vocabulary-search/data/downloads/
 # Run outputs
 open-vocabulary-search/results/logs/
 open-vocabulary-search/results/**/*.png
+open-vocabulary-search/results/**/*.jpg

@@ -596,3 +596,23 @@ Start with Phase 1.
 - **Evaluation plan (Phase 5):** COCO captions give text queries with exactly one known correct image,
   which makes them the primary Recall@K/MRR benchmark. Category labels support a secondary
   "label precision@K" metric.
+
+### 2026-11-09 — Phase 4 (additional features) decisions
+
+- **Entry point:** `main.py` with subcommands `index`, `search`, `classify`, `detect`
+  (`index`/`search` delegate to the scripts, which also run standalone).
+- **Image-to-image search** (`app/image_search.py`, `search --image-query`): if the query image is itself
+  indexed it is excluded by default (it would always be rank 1, similarity 1.0); `--include-self` keeps it.
+- **Zero-shot classification** (`app/zero_shot_classifier.py`): prompt ensembling over 5 templates
+  ("a photo of a {}.", ...). Reports cosine *similarity* plus a *relative score* = softmax(100·sim)
+  over the supplied labels only. Verified that it is not a calibrated probability: a cats image with only
+  "car, bicycle, building" gets "car" relative 0.75 (similarity only 0.198).
+- **YOLOv8n** (`app/object_detector.py`, `ultralytics==8.4.208`), installed with torch/torchvision
+  pinned by a constraints file so the cu126 build was not replaced. Weights are stored in `models/yolov8n.pt`
+  (6.2 MB, Ultralytics GitHub release v8.4.0). Ultralytics analytics disabled (`settings sync=False`
+  in `~/.config/Ultralytics/settings.json`) and `YOLO_OFFLINE=1` at inference. FP32, imgsz 640.
+- **Combined pipeline:** `search --query ... --detect` runs CLIP search, unloads CLIP, then runs YOLO
+  on the results.
+- **GPU memory test (CLIP + YOLO):** YOLO alone uses about 193 MB torch peak and about 470 MB per process including the CUDA
+  context, at 15 ms/img. **Both loaded at once** used a 645 MB torch peak and about 800 MB per process, with 1.6 GB still free,
+  so co-loading is safe on this card. Sequential loading remains the default per the spec.
