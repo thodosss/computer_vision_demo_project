@@ -5,6 +5,7 @@
     python main.py search   --image-query data/images/000000000285.jpg
     python main.py classify --image data/images/000000000285.jpg --labels "car,dog,bicycle,bear,person"
     python main.py detect   --image data/images/000000001584.jpg [--conf 0.25]
+    python main.py ui       [--port 7860]      # local web dashboard: http://127.0.0.1:7860
 
 Only one neural network is loaded on the GPU at a time (CLIP or YOLO), never both.
 """
@@ -77,8 +78,19 @@ def cmd_detect(argv) -> int:
     return 0
 
 
+def cmd_ui(argv) -> int:
+    ap = argparse.ArgumentParser(prog="main.py ui", description="Local Gradio dashboard (127.0.0.1 only)")
+    ap.add_argument("--port", type=int, default=7860)
+    ap.add_argument("--device", choices=["auto", "cuda", "cpu"], default=None)
+    args = ap.parse_args(argv)
+    setup_logging(Config().log_dir / "ui.log")
+    from app.web_ui import launch
+    launch(port=args.port, device=args.device)
+    return 0
+
+
 def main() -> int:
-    commands = {"index", "search", "classify", "detect"}
+    commands = {"index", "search", "classify", "detect", "ui"}
     if len(sys.argv) < 2 or sys.argv[1] not in commands:
         print(__doc__)
         return 0 if len(sys.argv) > 1 and sys.argv[1] in ("-h", "--help") else 2
@@ -91,6 +103,8 @@ def main() -> int:
         return search.main(argv)
     if cmd == "classify":
         return cmd_classify(argv)
+    if cmd == "ui":
+        return cmd_ui(argv)
     return cmd_detect(argv)
 
 

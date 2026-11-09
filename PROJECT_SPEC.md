@@ -616,3 +616,18 @@ Start with Phase 1.
 - **GPU memory test (CLIP + YOLO):** YOLO alone uses about 193 MB torch peak and about 470 MB per process including the CUDA
   context, at 15 ms/img. **Both loaded at once** used a 645 MB torch peak and about 800 MB per process, with 1.6 GB still free,
   so co-loading is safe on this card. Sequential loading remains the default per the spec.
+
+### 2026-11-09 — Web dashboard (spec §10), added before Phase 5 at the user's request
+
+- `app/web_ui.py`, launched with `python main.py ui` → http://127.0.0.1:7860. Uses `gradio==6.31.0`,
+  installed with torch/numpy/pillow pinned. Binds to 127.0.0.1 only, `share=False`,
+  `GRADIO_ANALYTICS_ENABLED=False`, queue concurrency 1 (one GPU job at a time).
+- Tabs: Text search, Image search, Zero-shot classify, Object detection (YOLOv8n), Index & status.
+- A `Backend` object keeps CLIP loaded between searches and unloads it before YOLO runs (and vice versa),
+  so only one network is on the GPU at a time.
+- Bug found via the UI and fixed: uploaded images are temporary copies, so "exclude the query image" now
+  also drops results with cosine ≥ 0.995 (near-identical embedding), not just a matching path. A test was added.
+- Warnings shown in the UI: best search score < 0.25 → "probably no real match"; best zero-shot
+  similarity < 0.22 → "possibly none of these labels is in the image". These thresholds are provisional
+  and will be calibrated in Phase 5.
+- Verified end-to-end through the HTTP API with gradio_client: all tabs, model switching, re-indexing.

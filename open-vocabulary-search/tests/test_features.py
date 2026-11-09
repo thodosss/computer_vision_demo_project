@@ -25,6 +25,16 @@ def test_image_search_excludes_query_itself(colour_search, color_images):
     assert all(rec["label"] != ["red"] for rec, _ in results)
 
 
+def test_image_search_excludes_copy_of_query(colour_search, color_images, tmp_path):
+    """The web UI passes a temporary copy, so exclusion must not rely on the path."""
+    import shutil
+    copy = tmp_path / "upload_copy.jpg"
+    shutil.copy(color_images["red"], copy)
+    results = ImageSearch(colour_search).search_image(copy, k=2)
+    assert len(results) == 2
+    assert all(rec["label"] != ["red"] for rec, _ in results)
+
+
 def test_image_search_include_self_ranks_query_first(colour_search, color_images):
     rec, score = ImageSearch(colour_search).search_image(color_images["red"], k=1, exclude_self=False)[0]
     assert rec["label"] == ["red"]

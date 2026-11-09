@@ -3,17 +3,17 @@
   "images_skipped": 0,
   "device": "cuda",
   "batch_size": 1,
-  "model_load_s": 0.93,
-  "total_indexing_s": 7.693,
-  "embedding_s": 5.425,
-  "mean_embed_ms_per_image": 18.08,
-  "images_per_s": 39.0,
+  "model_load_s": 0.496,
+  "total_indexing_s": 6.246,
+  "embedding_s": 4.066,
+  "mean_embed_ms_per_image": 13.55,
+  "images_per_s": 48.03,
   "gpu": {
-    "allocated_mb": 585.2,
+    "allocated_mb": 587.6,
     "reserved_mb": 632.0,
-    "peak_allocated_mb": 588.1,
-    "device_free_mb": 960.3,
+    "peak_allocated_mb": 590.5,
+    "device_free_mb": 1731.8,
     "device_total_mb": 3003.9
   },
-  "process_ram_mb": 1096.6
+  "process_ram_mb": 1259.0
 }
